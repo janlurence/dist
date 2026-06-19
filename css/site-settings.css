@@ -1,0 +1,19 @@
+/**
+ * Color settings offcanvas — cursor overrides.
+ * Theme main.css sets .offcanvas-backdrop to cursor-close.svg (X) for modals;
+ * that backdrop covers the whole viewport, so we use a normal pointer here instead.
+ */
+.offcanvas-backdrop.site-settings-backdrop {
+  cursor: pointer;
+}
+
+.offcanvas-color,
+.offcanvas-color .offcanvas-content,
+.offcanvas-color .canvas-body {
+  cursor: auto;
+}
+
+.offcanvas-color .choose-item,
+.offcanvas-color .icon-close-popup {
+  cursor: pointer;
+}
